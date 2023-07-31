@@ -1,6 +1,7 @@
 // Importing the necessary modules 
 import React, { Component, Fragment } from 'react'; 
-import Header from './HeaderDiv';
+import LeftDiv from './LeftDiv';
+import RightDiv from './RightDiv';
 
 // Creating Dashboard component 
 class Messages extends Component {
@@ -12,7 +13,10 @@ class Messages extends Component {
         // Return the jsx component 
         return(
             <Fragment> 
-                <Header /> 
+                <section className="messageMainSection">
+                    <LeftDiv /> 
+                    <RightDiv /> 
+                </section>
 
             </Fragment>
         )

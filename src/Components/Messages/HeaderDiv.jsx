@@ -36,8 +36,11 @@ let Header = (props) => {
                     </div>
                     <div className="home">
                         <div>
-                            <img src={homeLogo} className="homeLogo" alt="" srcset="" />
+                            <img src={homeLogo} className="homeLogo" alt="" srcset="" /> 
+                            <span className="convoHomePara"> / Converstaions </span> 
+                            
                         </div>
+
                     </div>
 
                 </header>

@@ -439,7 +439,142 @@ ul li::before {
     margin-left: 10px;
     box-shadow: 3px 5px 18px 6px;
 }
+.messageMainSection {
+    display: flex;
+}
+.messageLeftDiv {
+    display: grid;
+    justify-content: center;
+    height: fit-content;
+    padding-top: 23px;
+    width: 10%;
+    background-color: white;
+}
+.messageLogoImage {
+    height: 52px;
+    width: 52px;
+    border-radius: 5px;
+}
+.messageRightDiv {
+    height: fit-content;
+    width: 90%;
 
+}
+.convoHomePara {
+    padding-left: 10px; 
+    color: #938a8a;  
+}
+.messageMiddleSection {
+    margin-top: 30px;
+    height: 400px;
+}
+.bottomSection {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.contentsSectionMain {
+    margin: 40px 20px 20px 20px;
+}
+.mainContactsDiv {
+    margin-top: 21px;
+    height: fit-content;
+    display: flex;
+    border: 2px solid #9fb69f;
+}
+.contactsDiv {
+    height: 35px;
+    display: flex;
+    padding-top: 11px;
+    width: 88%;
+    background-color: white;
+    justify-content: space-between;
+    padding-left: 18px;
+    padding-right: 23px;
+}
+.messagesDiv {
+    height: 100vh;
+    width: 70%; 
+    background-color: #5570f1;
+}
+.searchDiv {
+    display: flex;
+    background-color: #fffffffc;
+    height: 34px;
+    padding-top: 8px;
+    border: 1px solid #a79696;
+    padding-left: 10px;
+    padding-right: 1em;
+    width: 80%;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+.conversationWithCustomersHeader {
+    color: #6c6464f7;
+    font-weight: 400;
+}
+.searchLogo {
+    height: 20px;
+    margin-top: 2px;
+    width: 20px;
+}
+.searchInputForm {
+    border: none;
+    width: 206px;
+    outline: none;
+    padding-left: 8px;
+    height: 22px;
+}
+.usersDiv {
+    margin-top: 0em;
+    border-right: 5px solid #5c5caf;
+    width: 16em;
+    background-color: #f7f7fc;
+    height: 56px;
+    margin-left: 0px;
+    display: flex;
+    padding-top: 12px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-bottom: 12px;
+}
+.nonActiveUserDiv {
+    margin-top: 0em;
+    border: none; 
+    width: 16em;
+    background-color: #f7f7fc;
+    height: 56px;
+    margin-left: 0px;
+    display: flex;
+    padding-top: 12px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-bottom: 12px;
+}
+.usersDivImageSection {
+    height: 62px;
+    width: 76px;
+    margin-right: 18px;
+}
+.usersDivCommentsSection {
+    display: grid;
+    justify-content: center;
+}
+.usersDivHeaderDisplay {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: bold;
+}
+.contactsHeaderSection {
+    background-color: white;
+    padding-bottom: 27px;
+}
+.usersDivMessage {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
 
 
 /* Adding media query */
