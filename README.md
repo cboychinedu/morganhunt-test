@@ -6,6 +6,9 @@
 <div>
     <img src="./readmeImages/dashboar.png">
 </div>
+<div>
+    <img src="./readmeImages/messages.png">
+</div>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

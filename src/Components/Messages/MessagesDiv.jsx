@@ -58,7 +58,12 @@ class MessagesDiv extends Component {
                     {/* Adding the user's Message width: 50% from the left */}
                     <div className="usersMessageDiv">
                         <div className="usersMessageValue">
+                            <div>
 
+                            </div>
+                            <div>
+                                
+                            </div>
                         </div>
                         <div className="usersMessageValue">
                             <p> 
