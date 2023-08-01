@@ -4,6 +4,7 @@ import searchLogo from "../../Images/messages/Search.png";
 import UsersDiv from './usersDiv';
 import NonActiveUsersDiv from "./nonActiveUserDiv"; 
 import janeDoe from "../../Images/messages/janeDoe.png"; 
+import MessagesDiv from './MessagesDiv';
 
 
 // Creating the MainContactsMessagesDiv class component 
@@ -61,12 +62,37 @@ class MainContactsMessagesDiv extends Component {
                             status="New"
                             message="Hi, i want to make enquires about yo..." 
                         />
+                        <NonActiveUsersDiv 
+                            imageUrl={janeDoe} 
+                            username="Jane Doe" 
+                            status="New"
+                            message="Hi, i want to make enquires about yo..." 
+                        />
+                        <NonActiveUsersDiv 
+                            imageUrl={janeDoe} 
+                            username="Jane Doe" 
+                            status="New"
+                            message="Hi, i want to make enquires about yo..." 
+                        />
+                        <NonActiveUsersDiv 
+                            imageUrl={janeDoe} 
+                            username="Jane Doe" 
+                            status="New"
+                            message="Hi, i want to make enquires about yo..." 
+                        />
+                        <NonActiveUsersDiv 
+                            imageUrl={janeDoe} 
+                            username="Jane Doe" 
+                            status="New"
+                            message="Hi, i want to make enquires about yo..." 
+                        />
 
 
                     </div>
-                    <div className="messagesDiv">
 
-                    </div>
+                    {/* Adding the messages div */}
+                    <MessagesDiv /> 
+
                 </section>
             </Fragment>
         )

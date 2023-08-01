@@ -20,7 +20,14 @@ class RightDiv extends Component {
                     <section className="contentsSectionMain">
                         {/* Adding the Header Para  */}
                         <div className="headerPara">
-                            <h3 className="conversationWithCustomersHeader"> Conversations with Customers </h3>
+                            <div>
+                                <h3 className="conversationWithCustomersHeader"> Conversations with Customers </h3>
+                            </div>
+
+                            <div>
+                                <button className="newMessageBtn"> New Message </button>
+                            </div>
+                            
                         </div>
 
                         {/* Adding the the mainContacts Div */}

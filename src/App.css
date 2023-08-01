@@ -169,6 +169,7 @@ body {
     height: 95px;
     background: #ffffff;
     width: 100%;
+    padding-right: 40px;
 }
 .nannyShopOutterDiv {
     display: flex;
@@ -441,13 +442,14 @@ ul li::before {
 }
 .messageMainSection {
     display: flex;
+    background-color: #f6f6f6; 
 }
 .messageLeftDiv {
     display: grid;
     justify-content: center;
-    height: fit-content;
+    height: 125vh;
     padding-top: 23px;
-    width: 10%;
+    width: 7%;
     background-color: white;
 }
 .messageLogoImage {
@@ -460,6 +462,7 @@ ul li::before {
     width: 90%;
 
 }
+
 .convoHomePara {
     padding-left: 10px; 
     color: #938a8a;  
@@ -479,7 +482,6 @@ ul li::before {
     margin-top: 21px;
     height: fit-content;
     display: flex;
-    border: 2px solid #9fb69f;
 }
 .contactsDiv {
     height: 35px;
@@ -489,12 +491,13 @@ ul li::before {
     background-color: white;
     justify-content: space-between;
     padding-left: 18px;
-    padding-right: 23px;
+    padding-right: 12px;
 }
 .messagesDiv {
-    height: 100vh;
-    width: 70%; 
-    background-color: #5570f1;
+    /* height: 139vh; */
+    width: 90%;
+    margin-left: 20px;
+    background-color: white;
 }
 .searchDiv {
     display: flex;
@@ -540,16 +543,30 @@ ul li::before {
 }
 .nonActiveUserDiv {
     margin-top: 0em;
-    border: none; 
+    border: none;
     width: 16em;
-    background-color: #f7f7fc;
+    background-color: white;
     height: 56px;
     margin-left: 0px;
+    border-top: 1px solid #f2e4e4;
     display: flex;
     padding-top: 12px;
     padding-left: 11px;
     padding-right: 11px;
     padding-bottom: 12px;
+}
+.headerPara {
+    display: flex;
+    justify-content: space-between;
+}
+.newMessageBtn {
+    height: 33px;
+    width: 145px;
+    border: none;
+    border-radius: 8px;
+    font-size: 12px;
+    color: white;
+    background-color: #5570f1;
 }
 .usersDivImageSection {
     height: 62px;
@@ -573,6 +590,135 @@ ul li::before {
 .usersDivMessage {
     display: flex;
     justify-content: space-between;
+    font-size: 12px;
+}
+.messagesDivheaderDiv {
+    display: flex;
+    justify-content: space-between;
+    height: 4em;
+    background-color: white;
+    padding-left: 19px;
+    padding-right: 19px;
+    border: 1px solid #f3f2f2; 
+}
+.messagesDivLeftHeader {
+    height: 5em;
+    font-size: 12px;
+    width: 169px;
+    padding-top: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.messagesDivRightHeader {
+    display: grid;
+    font-size: 12px;
+    width: 169px;
+    padding-top: 7px; 
+}
+.messagesDivOnline{
+    color: #5570f1; 
+}
+#online::marker {
+    color: #5570f1; 
+}
+.timeDisplay {
+    color: #8a8383; 
+}
+.newCustomerDiv {
+    display: flex;
+    font-size: 12px;
+}
+.newCustomerPara {
+    background: #FFEAD1;
+    font-size: 11px;
+    padding-top: 6px;
+    padding-left: 4px;
+    padding-right: 5px;
+    border-radius: 6px;
+}
+.viewProfilePara {
+    padding-top: 5px;
+    color: #5570f1;
+    margin-left: 9px;
+}
+.ordersDiv {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.ordersLogoImage {
+    height: 20px;
+    width: 20px;
+    margin-right: 6px;
+}
+.dateDiv {
+    display: flex;
+    width: 100%;
+    padding-top: 23px;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: #5e5e5e;
+}
+.usersMessageDiv {
+    border: 2px solid rgb(172, 172, 216);
+    height: 43px;
+    background-color: #5570f1;
+    width: 37%;
+    float: left;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 5px;
+    border-top-right-radius: 13px;
+    margin-top: 20px;
+    border-bottom-right-radius: 13px;
+    border-top-left-radius: 13px;
+    align-items: center;
+    color: white;
+    margin-right: 367px;
+    font-size: 13px;
+}
+.adminMessageDiv {
+    margin-top: 30px;
+    border: 2px solid #e6e6e6;
+    height: 60px;
+    width: 40%;
+    padding-left: 20px;
+    background-color: #ffead1;
+    float: right;
+    margin-left: 300px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+.timeDiv {
+    margin-top: 30px;
+    color: #918888;
+}
+.inputMessageFormDiv {
+    display: flex;
+    width: 100%;
+    margin-top: 232px;
+    padding-top: 0px;
+    bottom: 1px;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+    font-size: 13px;
+    border-radius: 9px;
+    color: #5e5e5e;
+    border: 1px solid #c4c4c4;
+}
+.messageInput {
+    width: 60em;
+    height: 36px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
     font-size: 12px;
 }
 
