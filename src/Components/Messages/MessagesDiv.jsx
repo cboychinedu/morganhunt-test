@@ -6,6 +6,7 @@ import addLogo from "../../Images/messages/add.png";
 import emojiLogo from "../../Images/messages/emoji.png"; 
 import sendLogo from "../../Images/messages/send.png"; 
 import sentLogo from "../../Images/messages/sentLogo.png"
+import iphoneLogo from "../../Images/messages/iphoneLogo.png"; 
 
 // Creating the MessagesDiv component 
 class MessagesDiv extends Component {
@@ -56,16 +57,26 @@ class MessagesDiv extends Component {
                         <p> 12 August 2022 </p>
                     </div>
 
-                    {/* Adding the user's Message width: 50% from the left */}
-                    <div className="usersMessageDiv">
-                        <div className="usersMessageValue">
+                    {/* Adding the Logo */}
+                    <div className="usersMessageLogo">
                             <div>
+                                <img src={iphoneLogo} alt="iphoneImage" />
+                            </div>
+                            <div className="usersMessageLogoParaDiv">
+                                <p> iPhone 13 </p> 
+                                <p> N 730,000.00 </p>
 
                             </div>
-                            <div>
-
+                            <div className="usersMessageLogoStockDiv">
+                                <p> 
+                                    <span> 12 </span> In Stock
+                                </p>
+                                
                             </div>
                         </div>
+
+                    {/* Adding the user's Message width: 50% from the left */}
+                    <div className="usersMessageDiv">
                         <div className="usersMessageValue">
                             <p> 
                                 Hello, I want to make enquires about your product
