@@ -5,6 +5,7 @@ import ordersLogo from "../../Images/messages/orders.png";
 import addLogo from "../../Images/messages/add.png"; 
 import emojiLogo from "../../Images/messages/emoji.png"; 
 import sendLogo from "../../Images/messages/send.png"; 
+import sentLogo from "../../Images/messages/sentLogo.png"
 
 // Creating the MessagesDiv component 
 class MessagesDiv extends Component {
@@ -62,7 +63,7 @@ class MessagesDiv extends Component {
 
                             </div>
                             <div>
-                                
+
                             </div>
                         </div>
                         <div className="usersMessageValue">
@@ -81,12 +82,34 @@ class MessagesDiv extends Component {
                     <div className="adminMessageDiv">
                         <div className="adminMessageValue">
                             <p> Hello Janet, thank your for reaching out </p>
+                            <div className="timeDiv">
+                                <div className="innerTimeDiv">
+                                    <span> 12:57 am</span>
+                                    <div> 
+                                        <img src={sentLogo} alt="" srcset="" />
+                                    </div>
+
+                                </div>
+                                
+                            </div> 
                         </div>
 
                     </div>
+                    
+                    {/*  */}
                     <div className="adminMessageDiv">
                         <div className="adminMessageValue">
-                            What do you need to know ?
+                            <p> Hello Janet, thank your for reaching out </p>
+                            <div className="timeDiv">
+                                <div className="innerTimeDiv">
+                                    <span> 12:57 am</span>
+                                    <div> 
+                                        <img src={sentLogo} alt="" srcset="" />
+                                    </div>
+
+                                </div>
+                                
+                            </div> 
                         </div>
 
                     </div>
@@ -104,11 +127,10 @@ class MessagesDiv extends Component {
                         <div className="usersMessageValue">
                             <p> 
                                 I want to know if the price is negtiable, i need about 2 Units
-                            </p>
+                            </p> 
                             <div className="timeDiv">
                                 <span> 12:55 am</span>
-                            </div>
-                            
+                            </div>                           
                         </div>
 
                     </div>
